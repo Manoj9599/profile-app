@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "manoj2",
+    "email": "manoj2@gmail.com",
+    "password": "$2b$10$WWo3J0XX/y7H7FT2synEMONKrxwL/iPANDOjGogUZcHEcz3nRBR1y",
+    "age": 25,
+    "gender": "male",
+    "phoneNumber": "973",
+    "isAdmin": true
+  },
+  {
+    "id": 2,
+    "name": "manoj",
+    "email": "manoj@gmail.com",
+    "password": "$2b$10$bSn3S3O0DnbPJl9ArQn.me88Uwr0Ve0RijrWimrFjK.0IoGflZQA2",
+    "age": 25,
+    "gender": "male",
+    "phoneNumber": "973"
+  }
+]
