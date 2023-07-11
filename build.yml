@@ -1,0 +1,19 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
+jobs:
+  build-node:
+    runs-on: ubuntu-latest
+    container: node:16
+
+    steps:
+      - run: node --version
+      - run: npm --version
+      - uses: actions/setup-node@v3
+      - run: npm install
+      - run: node index.js
