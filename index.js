@@ -9,6 +9,10 @@ const express = require("express"),
 app.use(express.json());
 require("dotenv").config();
 
+app.get("/api", (req,res) => {
+  res.send("hello profile-app");
+})
+
 app.post("/api/signup", signup);
 app.post("/api/login", login);
 app.post("/api/admin/:email", admin);
