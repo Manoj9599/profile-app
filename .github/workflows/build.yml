@@ -15,5 +15,7 @@ jobs:
       - run: node --version
       - run: npm --version
       - uses: actions/setup-node@v3
+        with:
+              persist-credentials: false
       - run: npm install
       - run: node index.js
