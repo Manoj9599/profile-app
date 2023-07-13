@@ -4,7 +4,7 @@ module.exports = getallUsers = async (req, res) => {
   try {
     let jsonData = await readJSON();
     console.log('hello world')
-    res.status(200).send('hello world);
+    res.status(200).send("hello world");
   } catch (error) {
     console.error("Error occurred:", error);
     return res.status(500).send(error);
